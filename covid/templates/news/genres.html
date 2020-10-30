@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<main id="main">
+    <header id="article-header">
+        <h1>{{ browse_by_actor }}</h1>
+    </header>
+    <h1>Browse by genres</h1>
+    {% for key in genre_urls %}
+    <button class="btn-general" onclick="location.href='{{ genre_urls[key] }}'">{{key}}</button>
+    {% endfor %}
+</main>
+
+{% endblock %}

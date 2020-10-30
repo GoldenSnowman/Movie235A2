@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<main id="main">
+    <header id="article-header">
+        <h1>{{ browse_by_director }}</h1>
+    </header>
+    <h1>Browse by directors</h1>
+    {% for key in director_urls %}
+    <button class="btn-general" onclick="location.href='{{ director_urls[key] }}'">{{key}}</button>
+    {% endfor %}
+</main>
+
+{% endblock %}

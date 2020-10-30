@@ -1,0 +1,4 @@
+id,author-id,movie-id,text,timestamp,rating
+1,2,1,"Oh no the movie is over",2020-02-28 14:31:26,5
+2,1,1,"Nah ther will be more",2020-02-28 14:39:51,8
+3,3,1,"This is kinda cool",2020-02-29 08:12:08,6
